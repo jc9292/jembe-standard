@@ -12,6 +12,13 @@
 	margin-bottom: 5px;
 }
 #navigation li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	line-height: 18px; margin-bottom: 12px;
 	height: 35px;
 	float: left;
 	border-right: 1px solid #fff;
@@ -32,7 +39,7 @@
 #navigation li.active a{
 	color: #F40845;
 }
-
+#navigation li:last-child { border-right: none; } 
 	
 	
 
