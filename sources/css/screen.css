@@ -1,5 +1,36 @@
-body {
-
+#navigation{
+	background: #6B8CAA; /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(16,80,157,1) 0%, rgba(0,40,98,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(16,80,157,1)), color-stop(100%,rgba(0,40,98,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(16,80,157,1) 0%,rgba(0,40,98,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(16,80,157,1) 0%,rgba(0,40,98,1) 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, rgba(16,80,157,1) 0%,rgba(0,40,98,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(16,80,157,1) 0%,rgba(0,40,98,1) 100%); /* W3C */	
+	border-top:#65669D 2px solid;
+	border-bottom: 1px #002862 solid;
+	height: 35px;
+	margin-bottom: 5px;
+}
+#navigation li{
+	height: 35px;
+	float: left;
+	border-right: 1px solid #fff;
+	padding: 0 9px;
+	font-size: 16px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+#navigation li a{
+	line-height: 36px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#navigation li.active{
+	background: #fff;
+}
+#navigation li.active a{
+	color: #F40845;
 }
 
 	
